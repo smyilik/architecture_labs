@@ -1,0 +1,10 @@
+Django
+django.core
+djangorestframework
+markdown
+django-filter
+psycopg2-binary
+Faker
+django-cors-headers
+gunicorn
+psycopg[binary,pool]

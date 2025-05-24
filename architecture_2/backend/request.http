@@ -1,0 +1,52 @@
+@hostname = http://localhost:8000/api
+
+### запрос на Retrieve C(R)UD
+GET {{hostname}}/nargile.get
+Content-Type: application/json
+
+### get id
+GET {{hostname}}/nargile.get/1
+Content-Type: application/json
+
+### create
+POST {{hostname}}/nargile.create/
+Content-Type: application/json
+
+{
+    "name": "Кальян заморский",
+    "bowl_type": "Turk",
+    "bowl_material": "Ceramic",
+    "tobacco": "Sour",
+    "years_of_usage": 2,
+    "flask_volume": 4
+}
+
+### create 2
+POST {{hostname}}/nargile.create/
+Content-Type: application/json
+
+{
+    "name": "Кальян 2",
+    "bowl_type": "Race classic",
+    "bowl_material": "Clay",
+    "tobacco": "Sweet",
+    "years_of_usage": 1,
+    "flask_volume": 5
+}
+
+### delete
+GET {{hostname}}/nargile.delete/1
+Content-Type: application/json
+
+### update
+POST {{hostname}}/nargile.update/3
+Content-Type: application/json
+
+{
+    "name": "Кальян земской",
+    "bowl_type": "Race classic",
+    "bowl_material": "Glass",
+    "tobacco": "Sweet",
+    "years_of_usage": 4,
+    "flask_volume": 3
+}

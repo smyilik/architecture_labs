@@ -1,0 +1,8 @@
+C:/QT_projects/architecture_lab3/build/Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/CMakeFiles/architecture_lab3.dir
+C:/QT_projects/architecture_lab3/build/Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/CMakeFiles/edit_cache.dir
+C:/QT_projects/architecture_lab3/build/Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/QT_projects/architecture_lab3/build/Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/CMakeFiles/list_install_components.dir
+C:/QT_projects/architecture_lab3/build/Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/CMakeFiles/install.dir
+C:/QT_projects/architecture_lab3/build/Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/CMakeFiles/install/local.dir
+C:/QT_projects/architecture_lab3/build/Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/CMakeFiles/architecture_lab3_autogen_timestamp_deps.dir
+C:/QT_projects/architecture_lab3/build/Desktop_Qt_6_6_2_MSVC2019_64bit-Debug/CMakeFiles/architecture_lab3_autogen.dir

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-07ecd5a8c0dc2bc28378.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "architecture_lab3",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "architecture_lab3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-architecture_lab3-Debug-52522739fdfb8c0d12a4.json",
+					"name" : "architecture_lab3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "architecture_lab3_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-architecture_lab3_autogen-Debug-cf1d0e94897ad5957ba5.json",
+					"name" : "architecture_lab3_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "architecture_lab3_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-architecture_lab3_autogen_timestamp_deps-Debug-e3805c95516c105b6024.json",
+					"name" : "architecture_lab3_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/QT_projects/architecture_lab3/build/Desktop_Qt_6_6_2_MSVC2019_64bit-Debug",
+		"source" : "C:/QT_projects/architecture_lab3"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

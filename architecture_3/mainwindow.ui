@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>982</width>
+    <height>558</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>90</y>
+      <width>811</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="5" column="0">
+      <widget class="QPushButton" name="deleteButton">
+       <property name="text">
+        <string>Delete</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="5">
+      <widget class="QComboBox" name="createComboBox3">
+       <item>
+        <property name="text">
+         <string>Sweet</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sour</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cytrus</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="6">
+      <widget class="QSpinBox" name="createSpinBox1">
+       <property name="maximum">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="updateButton">
+       <property name="text">
+        <string>Update</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="getIDButton">
+       <property name="text">
+        <string>Get ID</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QSpinBox" name="updateSpinBox">
+       <property name="maximum">
+        <number>10000</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="QComboBox" name="updateComboBox2">
+       <item>
+        <property name="text">
+         <string>Glass</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Silicon</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ceramic</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Clay</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="4" column="7">
+      <widget class="QSpinBox" name="updateSpinBox2">
+       <property name="minimum">
+        <number>3</number>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="createButton">
+       <property name="text">
+        <string>Create</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="6">
+      <widget class="QSpinBox" name="updateSpinBox1">
+       <property name="maximum">
+        <number>10</number>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QSpinBox" name="deleteSpinBox">
+       <property name="maximum">
+        <number>10000</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="7">
+      <widget class="QSpinBox" name="createSpinBox2">
+       <property name="minimum">
+        <number>3</number>
+       </property>
+       <property name="maximum">
+        <number>5</number>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="2">
+      <widget class="QLineEdit" name="updateLineEdit">
+       <property name="maxLength">
+        <number>30</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QComboBox" name="createComboBox1">
+       <item>
+        <property name="text">
+         <string>Turk</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Race phunnel</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Race classic</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="getAllButton">
+       <property name="text">
+        <string>Get All</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QSpinBox" name="getIDSpinBox">
+       <property name="maximum">
+        <number>10000</number>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="4">
+      <widget class="QComboBox" name="createComboBox2">
+       <item>
+        <property name="text">
+         <string>Glass</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Silicon</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ceramic</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Clay</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="4" column="3">
+      <widget class="QComboBox" name="updateComboBox1">
+       <item>
+        <property name="text">
+         <string>Turk</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Race phunnel</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Race classic</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="4" column="5">
+      <widget class="QComboBox" name="updateComboBox3">
+       <item>
+        <property name="text">
+         <string>Sweet</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sour</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cytrus</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="2">
+      <widget class="QLineEdit" name="createLineEdit">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="maxLength">
+        <number>30</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelButton">
+       <property name="text">
+        <string>Button</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="labelID">
+       <property name="text">
+        <string>id</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="labelName">
+       <property name="text">
+        <string>name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="labelBowlType">
+       <property name="text">
+        <string>bowl type</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QLabel" name="labelBowlMaterial">
+       <property name="text">
+        <string>bowl material</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QLabel" name="labelTobacco">
+       <property name="text">
+        <string>tobacco</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="6">
+      <widget class="QLabel" name="labelYearsOfUsage">
+       <property name="text">
+        <string>years of usage</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="7">
+      <widget class="QLabel" name="labelFlaskVolume">
+       <property name="text">
+        <string>flask volume</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>982</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
