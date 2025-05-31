@@ -5,7 +5,7 @@ GET {{hostname}}/nargile.get
 Content-Type: application/json
 
 ### get id
-GET {{hostname}}/nargile.get/1
+GET {{hostname}}/nargile.get/4
 Content-Type: application/json
 
 ### create

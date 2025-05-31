@@ -2,12 +2,12 @@
 #include "./ui_mainwindow.h"
 #include "clientinterface.h"
 
-MainWindow::MainWindow(QWidget *parent)
-    : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
+
+
+MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    this->clientInt = ClientInterface::getInstance();
+    clientInt = ClientInterface::getInstance();
 }
 
 MainWindow::~MainWindow()
@@ -18,8 +18,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_getIDButton_clicked()
 {
     const int id = ui->getIDSpinBox->value();
-    Nargile* nargile = clientInt->getNargile(id);
-    nargile->Display();
+    clientInt->getNargile(id);
 }
 
 

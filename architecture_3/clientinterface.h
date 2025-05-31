@@ -8,21 +8,30 @@
 class Nargile
 {
 public:
-    int id = -1;
+    int id;
     QString name;
     QString bowl_type;
     QString bowl_material;
     QString tobacco;
     int years_of_usage;
     int flask_volume;
+    Nargile()
+    {
+        this->id = -1;
+    }
+
+    void setID(const int id) {
+        this->id = id;
+    }
 
     void Display() const {
-        qDebug() << this->name << "\n" <<
-            this->bowl_type << "\n" <<
-            this->bowl_material << "NetworkReplyHttpImpl(0x1c5946278d0)\n" <<
-            this->tobacco << "\n" <<
-            this->years_of_usage << "\n" <<
-            this->flask_volume << "\n";
+        qDebug() << "Nargile: id = " << this->id <<
+            "\nNargile: name = " << this->name <<
+            "\nNargile: bowl_type = " << this->bowl_type <<
+            "\nNargile: bowl_material = " << this->bowl_material <<
+            "\nNargile: tobacco = " << this->tobacco <<
+            "\nNargile: years_of_usage = " << this->years_of_usage <<
+            "\nNargile: flask_volume = " << this->flask_volume << "\n";
     }
 };
 
@@ -33,8 +42,8 @@ public:
     static ClientInterface* getInstance();
     static ClientInterface* instance;
     ~ClientInterface();
-    Nargile* getNargile(const int id);
-    void getNargile();
+    void getNargile(const int id);
+    QList<Nargile> getNargile();
     void createNargile(const QString name,
                        const QString bowl_type,
                        const QString bowl_material,
@@ -53,6 +62,7 @@ public:
 public slots:
     void responseReceived(QNetworkReply *reply);
 private:
+    void extracted(QList<Nargile> &list, QJsonArray &jsonArray);
     explicit ClientInterface(QObject *parent = nullptr);
     QNetworkAccessManager *m_client = nullptr;
     void addFormPart(QHttpMultiPart* multiPart, const QString& name, const QString& value);
